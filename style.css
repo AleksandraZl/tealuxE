@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    width: 1200px;
+    height: 142px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 235px;
+}
+
+.logo {
+    width: 73px;
+    height: 105px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
