@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color:#151618;
 }
 
 header {
@@ -80,24 +81,31 @@ nav ul {
     margin-bottom: 150px;
     margin-left: 448px;
     margin-right: 447px;
-    font-family: 'Cormorant', sans serif;
+    font-family: 'Cormorant', sans-serif;
     font-size: 40px;
     font-style: italic;
-    color: #151618;
 }
 
-.collections {
-    margin-top: 150px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.collections h2 {
-    font-family: 'Cormorant', sans serif;
+h2 {
+    font-family: 'Cormorant', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 100;
 }
+
+.collections {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* .collections h2 {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+} */
 
 .collection_items {
     display: flex;
@@ -115,4 +123,122 @@ nav ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.clients_reviews {
+    background-color: #F7F2EA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1600px;
+    height: 397;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 26px;
+    width: 1198px;
+    height: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    width: 280px;
+    height: auto;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.review_name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.our_tea_blog {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.blog_posts {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    gap: 40px 58px;
+    width: 1142px;
+    height: auto;
+}
+
+.post {
+    text-align: left;
+    display: flex;
+    grid-template: columns;
+}
+
+.post_text {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.post_title {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 80;
+    padding-left: 20px;
+    width: 252px;
+    height: 86px;
+}
+
+.post_author {
+    font-family: 'Open sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 60;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+.read_more {
+    padding-left: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 60;
+    text-decoration: none;
+}
+
+.view_all_container {
+    grid-column: span 2; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 60px;
+}
+
+.view_all {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 60;
+    padding: 12px 41px;
+    border: 1px solid #151618;
+    background-color: white;
 }
