@@ -44,6 +44,7 @@ nav ul {
 }
 
 .hero {
+    position: relative;
     margin-top: 28px;
     width: 1600px;
     height: 500px;
@@ -53,7 +54,7 @@ nav ul {
 .text-overlay {
     position: absolute;
     text-align: left;
-    top: 254px;
+    top: 220px;
     left: 200px;
     padding: 20px;
     width: 790px;
@@ -61,19 +62,22 @@ nav ul {
 }
 
 .headline_block_1 {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
     color: white;
     font-size: 60px;
-    font-style: light;
-    font-weight: 100;
-    width: 790px;
+    font-weight: 80;
+    width: 800px;
 }
 
 .paragraph_block_1 {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
     color: white;
     font-size: 24px;
-    font-style: light;
     font-weight: 80;
-    width: 558px; 
+    width: 600px; 
+    margin: 10px;
 }
 
 .quote {
