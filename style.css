@@ -101,7 +101,7 @@ h2 {
   text-align: center;
 }
 
-.collections {
+.collections, .priorities_block_7 {
   margin: 150px 200px;
 }
 
@@ -201,11 +201,114 @@ h2 {
   margin-top: 60px;
 }
 
-.view_all {
-  font-family: "Open sans", sans-serif;
-  font-size: 20px;
-  font-weight: 60;
+.view_all, .paragraph_block_6, .join, ::placeholder,  .priority_paragraph{
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+    font-weight: 60;
+}
+
+.view_all, .join {
   padding: 12px 41px;
   border: 1px solid #151618;
   background-color: white;
+}
+
+.subscribe_block_6 {
+    position: relative;
+    margin-top: 28px;
+    max-width: 100%;
+    height: 418px;
+}
+
+.container_block_6 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 100px;
+    left: 200px;
+    gap: 40px;
+    max-width: 1200px;
+    height: auto;
+}
+
+.container_text_6 {
+    max-width: 580px;
+}
+.headline_block_6 {
+    text-align: left;
+    font-family: "Cormorant", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.container_input_6 {
+    max-width: 580px;
+}
+form {
+    display: flex;
+    gap: 25px;
+}
+
+input[type="email"] {
+    flex: 1;
+    max-width: 439px;
+    border: none;
+    border-bottom: 1px solid #B8B58B;
+    background: transparent;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #B8B58B;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 12px;
+}
+.policy {
+    font-family: "Open sans", sans-serif;
+    font-size: 13px;
+    font-weight: 60;
+}
+
+input[type="checkbox"] {
+    margin: 3px;
+}
+
+
+.priorities {
+    display: flex;
+    justify-content: center;
+    margin: 60px 200px;
+    gap: 40px;
+}
+
+.priority {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.priority-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.priority_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 60;
+    margin-bottom: 10px;
+}
+.priority_paragraph {
+    font-weight: 500;
 }
